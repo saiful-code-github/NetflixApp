@@ -303,7 +303,7 @@ export const Trend = () => {
                         <div>
                             <div className="bodyimg">
                                 <img src={selectedItem.img1} alt="" className="w-full object-cover relative" style={{width: "100%", height: "350px", objectFit: "cover"}} />
-                                <img src={selectedItem.img2} alt="" className="w-[60%] absolute top-[70%] right-[35%] z-20" />
+                                <img src={selectedItem.img2} alt="" className="w-[57%] h-[120px] object-contain absolute  top-[70%] right-[40%] z-20" />
                             </div>
                             <div>
                                 <ul className="flex flex-wrap">
